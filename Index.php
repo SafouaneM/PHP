@@ -7,8 +7,18 @@
  */
 
 
-$aantal = 14;
-$deze_jongen = "Deze jongen is  ";
+$ball = array ("ronaldo", "messi", "marcelo", "asensio");
 
-echo $deze_jongen.$aantal. " jaar oud!";
+$ball[4] = "bale";
+
+$ball[7] = "isco";
+echo "<ul>";
+foreach($ball as $voetbal) {
+    echo "<li>".$voetbal."</li>";
+}
+echo "</ul>";
+
+
+
+
 
