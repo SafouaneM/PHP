@@ -12,5 +12,5 @@ function telop($a, $b) {
     return $a. " + " .$b. " = " .$c;
 }
 
-echo telop(a: 30, b: 32 z);
+ echo telop(55,6666);
 
