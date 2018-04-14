@@ -8,8 +8,8 @@
 //print_r($_GET);
 
 
-print_r($_POST['voetballers']);
+print_r($_POST['voetballer']);
 
-foreach ($_POST['voetballers'] as $bal) {
-    echo "<img src='img/voetballers/".$bal.".jpg'>";
+foreach ($_POST['voetballer'] as $voetbal) {
+    echo "<img src='img/voetballers/".$voetbal.".jpg'>";
 }
