@@ -10,6 +10,6 @@
 
 print_r($_POST['voetballers']);
 
-foreach($_POST['voetballers'] as $bal) {
-    echo "img src='../Shuffle".$bal.".jpg'>";
+foreach ($_POST['voetballers'] as $bal) {
+    echo "<img src='img/voetballers/".$bal.".jpg'>";
 }
